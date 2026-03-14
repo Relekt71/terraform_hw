@@ -96,3 +96,14 @@
 "keep_locally - (Optional, boolean) If true, the image will be kept when the resource is destroyed."
 
 Это означает, что при уничтожении ресурса образ сохраняется локально.
+
+Задание 3
+
+Установил OpenTofu
+
+![alt text](image-9.png)
+
+Выполнен тот же код:
+
+tofu apply -auto-approve
+Из-за проблем с доступом к репозиториям полноценно не выполнился. OpenTofu полностью совместим с Terraform-конфигурациями и должен выполниться аналогично.
